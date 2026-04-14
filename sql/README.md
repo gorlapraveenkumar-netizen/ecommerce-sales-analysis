@@ -4,9 +4,9 @@
 This project analyzes sales data to find top products and revenue.
 
 # Tools Used
-- PostgreSQL
-- Python
-- Google Sheets
+- PostgreSQL (SQL queries and data analysis)
+- Google Sheets (data analysis and revenue calculation)
+- Python (basic logic and calculations)
 
 # What I Did
 - Created sales dataset
@@ -15,5 +15,10 @@ This project analyzes sales data to find top products and revenue.
 
 # Key Insights
 - Laptop generated highest revenue
-- Total revenue calculated using SQL
+- Total revenue calculated using SQL,Google Sheets
 - Identified product trends
+  
+# Project Components
+- Data stored and queried using PostgreSQL
+- Revenue calculated using Google Sheets formulas
+- Logic implemented using Python
