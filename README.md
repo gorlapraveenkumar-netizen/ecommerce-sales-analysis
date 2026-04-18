@@ -23,7 +23,7 @@ This project analyzes sales data to find top products and revenue.
 - Revenue calculated using Google Sheets formulas
 - Logic implemented using Python
   
-#SQL JOIN Output
+# SQL JOIN Output
 
 | order_id | product_name | price | quantity | revenue |
 |----------|--------------|-------|----------|---------|
