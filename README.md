@@ -1,32 +1,40 @@
-# E-commerce Sales Analysis
+# Superstore Sales Analysis
 
-# Project Overview
-This project analyzes sales data to find top products and revenue.
+## 📌 Project Overview
+This project analyzes sales data from the Superstore dataset to understand business performance and generate insights.
 
-# Tools Used
-- PostgreSQL (SQL queries and data analysis)
-- Google Sheets (data analysis and revenue calculation)
-- Python (basic logic and calculations)
+---
 
-# What I Did
-- Created sales dataset
-- Calculated total revenue
-- Found highest selling product
+## 🛠️ Tools Used
+- Python
+- Pandas
 
-# Key Insights
-- Laptop generated highest revenue
-- Total revenue calculated using SQL,Google Sheets
-- Identified product trends
-  
-# Project Components
-- Data stored and queried using PostgreSQL
-- Revenue calculated using Google Sheets formulas
-- Logic implemented using Python
-  
-# SQL JOIN Output
+---
 
-| order_id | product_name | price | quantity | revenue |
-|----------|--------------|-------|----------|---------|
-| 101      | Phone        | 20000 | 2        | 40000   |
-| 102      | Laptop       | 50000 | 1        | 50000   |
-| 103      | Earphones    | 2000  | 3        | 6000    |
+## 📊 Dataset
+- Superstore Sales Dataset (CSV file)
+
+---
+
+## 🔍 Analysis Performed
+- Calculated total sales
+- Calculated total quantity sold
+- Identified top 5 products by sales
+- Identified lowest selling products
+- Analyzed sales by category
+- Analyzed sales by region
+- Identified top customers
+
+---
+
+## 📈 Key Insights
+- Top-performing products generate the highest revenue
+- Some products have very low sales and need attention
+- Sales vary across different regions and categories
+
+---
+
+## 📁 Project Structure
+python/day11_kaggle.py
+data/Sample - Superstore.csv
+output/top_products.csv
