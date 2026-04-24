@@ -1,0 +1,29 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("Sample - Superstore.csv", encoding="latin1")
+
+# 1) Category
+category_sales = df.groupby("Category")["Sales"].sum()
+category_sales.plot(kind="bar")
+plt.title("Sales by Category")
+plt.tight_layout()
+plt.savefig("category_sales.png")
+plt.show()
+
+# 2) Top 10 products
+top_products = df.groupby("Product Name")["Sales"].sum().sort_values(ascending=False)
+top_products.head(10).plot(kind="bar")
+plt.title("Top 10 Products by Sales")
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.savefig("top_products.png")
+plt.show()
+
+# 3) Region
+region_sales = df.groupby("Region")["Sales"].sum()
+region_sales.plot(kind="bar")
+plt.title("Sales by Region")
+plt.tight_layout()
+plt.savefig("region_sales.png")
+plt.show()
